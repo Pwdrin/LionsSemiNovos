@@ -1,0 +1,68 @@
+const data = [
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/28269-IMG_3208.JPG?v=3",
+    title: "Renault Kwid INTENSE 1.0",
+    year: "2023",
+    price: "$",
+    color: "Prata",
+    category: "Renault",
+  },
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/26372-IMG_2452_16_11zon.jpg?v=3",
+    title: "Nissan Kicks 1.6 SENSE CVT",
+    year: "2022",
+    price: "$",
+    color: "Preto",
+    category: "Nissan",
+  },
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/02314-IMG_4907_35_11zon.jpg?v=3",
+    title: "Fiat Grand Siena Attractive",
+    year: "2021",
+    price: "$",
+    color: "Branco",
+    category: "Fiat",
+  },
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/53187-IMG_3127_17_11zon.jpg?v=3",
+    title: "Hyundai HB20 COMFORT STYLE 1.6",
+    year: "2013",
+    price: "$",
+    color: "Vermelho",
+    category: "Hyundai",
+  },
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/97293-IMG_8431_10_11zon.jpg?v=3",
+    title: "Fiat Strada 1.4 Hard Working CE",
+    year: "2020",
+    price: "$",
+    color: "Branco",
+    category: "Fiat",
+  },
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/45529-IMG_3355_16_11zon.jpg?v=3",
+    title: "Volkswagen Tiguan TSI 4WD 2.0",
+    year: "2012",
+    price: "$",
+    color: "Branco",
+    category: "Volkswagen",
+  },
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/28827-IMG_5806_17_11zon.jpg?v=3",
+    title: "Nissan Versa 1.6 Exclusive CVT",
+    year: "2022",
+    price: "$",
+    color: "Azul",
+    category: "Nissan",
+  },
+  {
+    img: "https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/03319-IMG_9218_17_11zon.jpg?v=3",
+    title: "Renault Duster Dynamique 1.6",
+    year: "2019",
+    price: "$",
+    color: "Marrom",
+    category: "Renault",
+  },
+];
+
+export default data;

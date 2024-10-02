@@ -1,0 +1,137 @@
+.templateContainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.searchInputContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inputWithIcon {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a60f14;
+  font-size: 1.2rem;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  font-size: 1rem;
+  border: 2px solid #a60f14;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+#searchInput:focus {
+  border-color: #ff0000;
+}
+
+.template_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.template {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(25% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.template:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.template img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.template h3 {
+  color: #2a2a2a;
+  font-size: 1rem;
+  margin: 10px;
+  text-align: center;
+}
+
+.template p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 5px 10px;
+}
+
+.template .category {
+  font-weight: bold;
+  color: #2a2a2a;
+}
+
+.template .color {
+  color: #2a2a2a;
+}
+
+.template .price {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-cards2 {
+  margin: 15px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a60f14;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+.btn-cards2:hover {
+  background-color: #ff0000;
+}
+
+@media (max-width: 1024px) {
+  .template {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .template {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .template {
+    width: 100%;
+  }
+
+  #searchInput {
+    max-width: 100%;
+  }
+}

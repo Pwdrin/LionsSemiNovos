@@ -1,0 +1,280 @@
+/* TEXT */
+.title {
+  margin-top: 20px;
+  color: #a60f14;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #a60f14;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* CONTEÚDO */
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.cards ul {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cards li {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.cards div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 250px;
+  height: 100%;
+}
+
+.cards div:hover {
+  transform: translateY(-5px);
+}
+
+.cards img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.cards h1 {
+  color: #a60f14;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.cards p {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+@media (max-width: 1200px) {
+  .cards li {
+    flex: 1 1 calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .cards li {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .cards li {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+}
+
+/* DIVISOR */
+
+.banner img {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.divisor {
+  width: 100%;
+  background-color: #a60f14;
+  margin: 0;
+  padding: 0;
+}
+.seta {
+  display: flex;
+  color: #a60f14;
+  background-color: #a60f14;
+  border-radius: 25px;
+  margin: 0 auto;
+  font-size: 2.5rem;
+}
+
+.title2 {
+  margin-top: 20px;
+  color: #353238;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.subtitle2 {
+  color: #353238;
+  text-align: center;
+}
+
+/* CARD SHOP */
+
+.cardscar {
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.cardscar ul {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cardscar li {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.cardscar div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 250px;
+  height: 100%;
+}
+
+.cardscar img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.cardscar p {
+  font-size: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .cardscar li {
+    flex: 1 1 calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .cardscar li {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .cardscar li {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+}
+
+.btn-cards {
+  margin-top: 25px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #a60f14;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #a60f14;
+}
+
+.btn-cards::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #a60f14;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.btn-cards:hover::before {
+  width: 105%;
+}
+
+.btn-cards:hover {
+  color: white;
+}
+
+.btn-extra {
+  margin-top: 25px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #a60f14;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #a60f14;
+}
+
+.btn-extra::before {
+  content: "";
+  width: 0;
+  height: 400%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #a60f14;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.btn-extra:hover::before {
+  width: 105%;
+}
+
+.btn-extra:hover {
+  color: white;
+}

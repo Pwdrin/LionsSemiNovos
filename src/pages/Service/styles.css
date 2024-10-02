@@ -1,0 +1,128 @@
+h3 {
+  color: #a60f14;
+  font-size: 2rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-extrabtn {
+  background-color: #a60f14;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}
+.extra-btn {
+  margin-top: 25px;
+  padding: 0.8em 1.8em;
+  border: 2px solid #2a2a2a;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  background: #2a2a2a;
+  color: white;
+}
+
+.extra-btn::before {
+  content: "";
+  width: 0;
+  height: 500%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+.extra-btn:hover::before {
+  width: 105%;
+}
+
+.extra-btn:hover {
+  color: #2a2a2a;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.cards2 ul {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards2 li {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.cards2 div {
+  background-color: #a60f14;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s;
+  min-height: 250px;
+  height: 100%;
+}
+
+.cards2 div:hover {
+  transform: translateY(-5px);
+}
+
+.cards2 img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.cards2 h1 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .cards2 li {
+    flex: 1 1 calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .cards2 li {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .cards2 li {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+}
