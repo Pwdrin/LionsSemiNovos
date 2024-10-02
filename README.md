@@ -8,10 +8,10 @@ Utilizei React + Vite, HTML, CSS, JavaScript
 
 Para garantir uma boa organização e legibilidade, separei o código em diferentes arquivos e componentes. Utilizei uma abordagem modular, onde cada parte da página foi desenvolvida como um componente React separado. Isso não apenas facilitou a manutenção do código, mas     também permitiu um desenvolvimento mais ágil e colaborativo. As principais seções foram organizadas da seguinte maneira:
 
- components/: Contém os componentes reutilizáveis, como a barra de navegação, rodapé e sliders.
- pages/: Contém pequenas pastas com todas as páginas separadas e suas estilizações.
- styles/: Onde armazenei o estilo global da aplicação.
- db/: Armazena os dados da lista que será utilizada na barra de busca.
+     components/: Contém os componentes reutilizáveis, como a barra de navegação, rodapé e sliders.
+     pages/: Contém pequenas pastas com todas as páginas separadas e suas estilizações.
+     styles/: Onde armazenei o estilo global da aplicação.
+     db/: Armazena os dados da lista que será utilizada na barra de busca.
 
 ## Como Executar o Projeto
 
