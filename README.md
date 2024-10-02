@@ -21,7 +21,7 @@ Para executar o projeto, siga estas etapas:
 
     2- Execute o comando "npm install" para instalar as dependências necessárias.
  
-    3- Após a instalação, inicie o projeto com o comando "npm run" dev.
+    3- Após a instalação, inicie o projeto com o comando "npm run dev".
 
     O projeto estará rodando e você poderá visualizá-lo no seu navegador. na "http://localhost:5173/"
 
