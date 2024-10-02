@@ -6,7 +6,7 @@
 
     Utilizei React + Vite, HTML, CSS, JavaScript
 
-Para garantir uma boa organização e legibilidade, separei o código em diferentes arquivos e componentes. Utilizei uma abordagem modular, onde cada parte da página foi desenvolvida como um componente React separado. Isso não apenas facilitou a manutenção do código, mas também permitiu um desenvolvimento mais ágil e colaborativo. As principais seções foram organizadas da seguinte maneira:
+    Para garantir uma boa organização e legibilidade, separei o código em diferentes arquivos e componentes. Utilizei uma abordagem modular, onde cada parte da página foi desenvolvida como um componente React separado. Isso não apenas facilitou a manutenção do código, mas     também permitiu um desenvolvimento mais ágil e colaborativo. As principais seções foram organizadas da seguinte maneira:
 
     components/: Contém os componentes reutilizáveis, como a barra de navegação, rodapé e sliders.
     pages/: Contém pequenas pastas com todas as páginas separadas e suas estilizações.
@@ -15,7 +15,7 @@ Para garantir uma boa organização e legibilidade, separei o código em diferen
 
 ## Como Executar o Projeto
 
-Para executar o projeto, siga estas etapas:
+    Para executar o projeto, siga estas etapas:
 
     1- No terminal, navegue até o diretório do projeto.
 
@@ -27,4 +27,4 @@ Para executar o projeto, siga estas etapas:
 
 ## Conclusão
 
-O projeto foi uma excelente oportunidade para aplicar conhecimentos em React e CSS, além de reforçar a importância de uma boa organização do código para facilitar a manutenção e a escalabilidade. Estou ansioso para receber feedback e continuar aprimorando minhas habilidades como desenvolvedor front-end!
+    O projeto foi uma excelente oportunidade para aplicar conhecimentos em React e CSS, além de reforçar a importância de uma boa organização do código para facilitar a manutenção e a escalabilidade. Estou ansioso para receber feedback e continuar aprimorando minhas           habilidades como desenvolvedor front-end!
