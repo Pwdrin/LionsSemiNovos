@@ -28,7 +28,7 @@ function Service() {
             <div>
               <img
                 alt="GANHE UMA RENDA EXTRA"
-                src="https://i.ibb.co/gRzQcQy/icons8-lucro-100.png"
+                src="https://i.ibb.co/52wyQ5c/icons8-banho-de-sol-100.png"
               />
               <h1>TRABALHE DE ONDE QUISER</h1>
             </div>
@@ -37,7 +37,7 @@ function Service() {
             <div>
               <img
                 alt="LUCRO ALTO"
-                src="https://i.ibb.co/52wyQ5c/icons8-banho-de-sol-100.png"
+                src="https://i.ibb.co/gRzQcQy/icons8-lucro-100.png"
               />
               <h1>LUCRO ALTO</h1>
             </div>
